@@ -4,7 +4,7 @@ import SwiftUI
 struct LearningApp: App {
     var body: some Scene {
         WindowGroup {
-            MeetingView()
+            ScrumsListView(scrums: DailyScrum.sampleData)
         }
     }
 }
